@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Maule Travelling Salesman Problem</title>
+
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.0/Chart.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+
+	
+</head>
+<body>
+    <div class="container">
+    
+        <div class="row">
+          <div class="col-sm-8">
+            <div id="mapid" style="width: 99%; height: 600px;"></div>
+          </div>
+          <div class="col-sm-4">
+            <div class="panel-group">
+                    <div class="panel panel-default">
+                            <div class="panel-heading" id="panel-visualization">Visualization</div>
+                            <div class="panel-body"><button type="button" class="btn btn-primary" id="show-nodes">Graph Layout</button></div>
+                            <div class="panel-body"><button type="button" class="btn btn-primary" id="solve-graph">Solve</button></div>           
+                    </div>
+            </div>
+            <div class="panel-group">
+                <div class="panel panel-default">
+                        <div class="panel-heading" id="panel-chart">Charts</div>
+                        <canvas id="chart" width="150" height="150"></canvas>
+                </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var socket = io.connect()
+        var ctx = document.getElementById('chart').getContext('2d')
+        var data = {
+          labels: [0,1],
+          datasets: [
+                {
+                    data: [0],
+                    label: 'Temperature',
+                    backgroundColor: '#ff6600'
+                    },
+                    {
+                    data: [0],
+                    label: 'Fitness',
+                    backgroundColor: '#0000ff'
+                }]
+        }
+        var optionsAnimations = {
+            animation: false,
+            scales: {
+                yAxes: [{
+                    id: 'first-y-axis',
+                    type: 'logarithmic'
+                }]
+            }
+        }
+        var chart = new Chart(ctx, {
+          type: 'line',
+          data: data,
+          options: optionsAnimations
+        })
+    
+        iter=0
+        socket.on('update', function (value) {
+            var length = data.labels.length
+            if (length >= 20) {
+                data.datasets[0].data.shift()
+                data.labels.shift()
+            }
+            console.log(value);
+            data.labels.push(iter++)
+            data.datasets[0].data.push(value.temperature)
+            data.datasets[1].data.push(value.fitness)
+            chart.update()
+        })
+    
+      </script>
+<script>
+	var mymap = L.map('mapid').setView([-35.4074204, -71.6509038], 12);
+    var mapboxAccessToken = 'pk.eyJ1Ijoic2hlcm5hOTAiLCJhIjoiY2puemMxeDhqMWgzODN2bmRuZ3Rzem9hdCJ9.ZSnfYHYewXKUhTbnOaer3w';
+	L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token='+ mapboxAccessToken,{
+		maxZoom: 18,
+		id: 'mapbox.streets'
+	}).addTo(mymap);
+
+    function show_nodes(map){
+        var geoJsonLayer = new L.geoJson();
+        geoJsonLayer.addTo(map);
+        $.ajax({
+            dataType: "json",
+            url: "/draw_nodes",
+            success: function(data) {
+                $(data.features).each(function(key, data) {
+                    geoJsonLayer.addData(data);
+                });
+            }
+        });
+    }
+    
+    function show_graph(map){
+        var myStyle = {
+            "color": "#ff7800",
+            "weight": 5,
+            "opacity": 0.65
+        };
+        var geoJsonLayer = new L.geoJson();
+        geoJsonLayer.addTo(map);
+        $.ajax({
+            dataType: "json",
+            url: "/draw_path",
+            success: function(data) {
+                $(data.features).each(function(key, data) {
+                    geoJsonLayer.addData(data);
+                });
+            }
+        });
+    }
+
+    $('#show-nodes').click( function() {
+        show_nodes(mymap);
+    });
+
+    $('#solve-graph').click( function() {
+        socket.emit('solve');
+    });
+
+    socket.on('tour', function(data){
+        var geoJsonLayer = new L.geoJson();
+        geoJsonLayer.addTo(mymap);
+        geoJsonLayer.addData(JSON.parse(data));
+    });
+</script>
+
+
+
+</body>
+</html>
