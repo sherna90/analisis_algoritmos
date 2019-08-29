@@ -40,13 +40,13 @@ class data_loader:
                 return geo_str
 
         def exponential_decay(self,init_temperature,step):
-                return init_temperature*math.exp(-float(step)/float(1e3))
+                return init_temperature*math.exp(-float(step)/float(1e5))
 
         def fast_decay(self,init_temperature,step):
-                return float(init_temperature)/float(step)
+                return float(init_temperature)/float(1+step%1e2)
         
         def log_decay(self,init_temperature,step):
-                return float(init_temperature)/math.log(step*2)
+                return float(init_temperature)/math.log(1+step**2)
                 
         def solver(self):
                 dist_mat=squareform(pdist(self.cities,'euclidean'))
@@ -55,7 +55,7 @@ class data_loader:
                 maxsteps=int(1e6)
                 step=1
                 while step<maxsteps:
-                        temperature=self.fast_decay(30,step)
+                        temperature=self.exponential_decay(1,step)
                         [i,j] = sorted(random.sample(range(self.n_cities),2))
                         newTour =  self.tour[:i] + self.tour[j:j+1] + self.tour[i+1:j] + self.tour[i:i+1] + self.tour[j+1:]
                         delta_y=tour_dist(newTour)-fitness
