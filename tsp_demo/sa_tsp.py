@@ -1,4 +1,4 @@
-import random, numpy, math, copy, matplotlib.pyplot as plt
+import random, numpy, math, copy
 from scipy.spatial.distance import pdist,squareform
 import json 
 

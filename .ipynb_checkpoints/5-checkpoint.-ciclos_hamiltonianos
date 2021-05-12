@@ -1,0 +1,168 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "systematic-montana",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "class abstract_graph:\n",
+    "    \n",
+    "    def __init__(self,_edges):\n",
+    "        self.edges=_edges\n",
+    "        self.nodes={u for u,v in self.edges} | {v for u,v in self.edges}\n",
+    "    \n",
+    "    def adjacency_list(self):\n",
+    "        pass\n",
+    "\n",
+    "    \n",
+    "class simple_graph(abstract_graph):\n",
+    "    \n",
+    "    def __init__(self,_edges):\n",
+    "        self.edges=_edges\n",
+    "        self.nodes={u for u,v in self.edges} | {v for u,v in self.edges}    \n",
+    "    \n",
+    "    def adjacency_list(self):\n",
+    "        adjacent=lambda n : {v for u,v in self.edges if u==n} | {u for u,v in self.edges if v==n}\n",
+    "        return {v:adjacent(v) for v in self.nodes}"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "mature-beijing",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "import numpy as np\n",
+    "\n",
+    "\n",
+    "E=[(0,1),(0,2),(0,4),(0,3),(1,2),(2,4),(4,3),(3,0)]\n",
+    "\n",
+    "G=simple_graph(E)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "invalid-performance",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[(0, 1), (0, 2), (0, 4), (0, 3), (1, 2), (2, 4), (4, 3), (3, 0)]"
+      ]
+     },
+     "execution_count": 60,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "G.edges"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "hindu-moses",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "{0: {1, 2, 3, 4}, 1: {0, 2}, 2: {0, 1, 4}, 3: {0, 4}, 4: {0, 2, 3}}"
+      ]
+     },
+     "execution_count": 61,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "G.adjacency_list()"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 102,
+   "id": "geographic-ready",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "def depth_first(G, start):\n",
+    "    path, stack = [], deque()\n",
+    "    stack.append(start)\n",
+    "    L = G.adjacency_list()\n",
+    "    while stack:\n",
+    "        vertex = stack.pop()\n",
+    "        if vertex not in path:\n",
+    "            path.append(vertex)\n",
+    "            stack.extend(L[vertex] )\n",
+    "    return path"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 103,
+   "id": "southwest-holmes",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "path=depth_first(G,0)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 104,
+   "id": "equal-payment",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[0, 4, 3, 2, 1]"
+      ]
+     },
+     "execution_count": 104,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "path"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "equal-manor",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.9.1"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
