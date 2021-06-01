@@ -1,0 +1,871 @@
+InputID,TargetID,Distance
+Curepto,Hualañé,29716.3278621182
+Curepto,Rauco,52563.8135766432
+Curepto,Linares,107815.012336896
+Curepto,Longaví,118310.317563328
+Curepto,Talca,45958.6687195469
+Curepto,Chanco,79516.6001879293
+Curepto,Empedrado,61529.7044141057
+Curepto,Pencahue,25228.7371519793
+Curepto,Cauquenes,97994.7464592211
+Curepto,Río Claro,63901.7988449735
+Curepto,Pelarco,61650.4874449253
+Curepto,San Javier,55444.4686197751
+Curepto,Pelluhue,105106.078572544
+Curepto,Constitución,39187.5820125645
+Curepto,Licantén,19849.4699247521
+Curepto,Vichuquén,32620.0320357727
+Curepto,Sagrada Familia,41769.1268421824
+Curepto,Retiro,97445.7514336256
+Curepto,Curicó,96673.3351652982
+Curepto,Molina,98137.008369152
+Curepto,Villa Alegre,66361.718116644
+Curepto,Yerbas Buenas,72380.0171338305
+Curepto,Maule,47470.6749802314
+Curepto,San Rafael,45400.6859643363
+Curepto,Teno,89133.0257032956
+Curepto,Romeral,113414.140454306
+Curepto,Parral,128686.527945521
+Curepto,Colbún,137379.984171594
+Curepto,San Clemente,119374.023203697
+Empedrado,Hualañé,90091.5620842108
+Empedrado,Rauco,108200.482325137
+Empedrado,Linares,94212.8723785901
+Empedrado,Longaví,94037.1460763221
+Empedrado,Talca,65204.8127922023
+Empedrado,Chanco,20518.050594676
+Empedrado,Curepto,61529.7044141056
+Empedrado,Pencahue,53013.6834653167
+Empedrado,Cauquenes,39717.3100204962
+Empedrado,Río Claro,100115.285345544
+Empedrado,Pelarco,88538.6625569194
+Empedrado,San Javier,32392.8762302954
+Empedrado,Pelluhue,44141.4595410388
+Empedrado,Constitución,27777.7067275961
+Empedrado,Licantén,73800.4266624574
+Empedrado,Vichuquén,88913.1608018133
+Empedrado,Sagrada Familia,91274.3288895035
+Empedrado,Retiro,59579.504105876
+Empedrado,Curicó,134275.604502614
+Empedrado,Molina,128042.615426092
+Empedrado,Villa Alegre,54987.7446635336
+Empedrado,Yerbas Buenas,67553.3417739416
+Empedrado,Maule,53248.597858458
+Empedrado,San Rafael,79044.605793376
+Empedrado,Teno,140277.215290947
+Empedrado,Romeral,155250.0648006
+Empedrado,Parral,92211.2764497695
+Empedrado,Colbún,128754.905328284
+Empedrado,San Clemente,130507.133014237
+Pencahue,Hualañé,42733.0276991203
+Pencahue,Rauco,55946.3490978854
+Pencahue,Linares,82602.1122740981
+Pencahue,Longaví,93294.0894736786
+Pencahue,Talca,22408.2144734312
+Pencahue,Chanco,73346.6573663818
+Pencahue,Curepto,25228.7371519794
+Pencahue,Empedrado,53013.6834653168
+Pencahue,Cauquenes,82901.8433476907
+Pencahue,Río Claro,50280.6501325043
+Pencahue,Pelarco,42824.1475859823
+Pencahue,San Javier,34933.8718042135
+Pencahue,Pelluhue,96629.2101343874
+Pencahue,Constitución,41993.8817750902
+Pencahue,Licantén,45078.2037024316
+Pencahue,Vichuquén,57125.4619340516
+Pencahue,Sagrada Familia,38300.1914585013
+Pencahue,Retiro,74867.2656166899
+Pencahue,Curicó,85005.4834660219
+Pencahue,Molina,82462.7221510146
+Pencahue,Villa Alegre,41523.6059345823
+Pencahue,Yerbas Buenas,47160.0818292675
+Pencahue,Maule,22274.137574075
+Pencahue,San Rafael,28814.5893679794
+Pencahue,Teno,87314.1302907714
+Pencahue,Romeral,104648.321322025
+Pencahue,Parral,104839.90432519
+Pencahue,Colbún,112638.375523917
+Pencahue,San Clemente,97658.5221611775
+Linares,Hualañé,116713.4789582
+Linares,Rauco,113517.582834408
+Linares,Longaví,19558.8842790063
+Linares,Talca,63749.6861310849
+Linares,Chanco,108110.773657439
+Linares,Curepto,107815.012336897
+Linares,Empedrado,94212.8723785902
+Linares,Pencahue,82602.1122740979
+Linares,Cauquenes,85590.1442856387
+Linares,Río Claro,77665.2759603156
+Linares,Pelarco,63867.2184567449
+Linares,San Javier,65040.730699764
+Linares,Pelluhue,115228.876554241
+Linares,Constitución,108029.609547941
+Linares,Licantén,127656.8204219
+Linares,Vichuquén,138906.207898683
+Linares,Sagrada Familia,95978.3666972747
+Linares,Retiro,45131.1016203163
+Linares,Curicó,93073.6384206914
+Linares,Molina,77304.0533400962
+Linares,Villa Alegre,43870.6664655133
+Linares,Yerbas Buenas,35445.3375033504
+Linares,Maule,60526.5491872771
+Linares,San Rafael,74382.7626913044
+Linares,Teno,122050.381592993
+Linares,Romeral,113681.608238887
+Linares,Parral,43953.6307927867
+Linares,Colbún,34545.6797778785
+Linares,San Clemente,51548.6981721198
+Longaví,Hualañé,130766.841695358
+Longaví,Rauco,130106.877392998
+Longaví,Linares,19558.8842790066
+Longaví,Talca,77163.4854880158
+Longaví,Chanco,104747.970997868
+Longaví,Curepto,118310.317563328
+Longaví,Empedrado,94037.1460763221
+Longaví,Pencahue,93294.0894736784
+Longaví,Cauquenes,77222.7251077364
+Longaví,Río Claro,95633.0841017415
+Longaví,Pelarco,81171.0684478614
+Longaví,San Javier,69162.7276272596
+Longaví,Pelluhue,107460.384332898
+Longaví,Constitución,112186.372425537
+Longaví,Licantén,138045.432648908
+Longaví,Vichuquén,150399.277604739
+Longaví,Sagrada Familia,111834.925435939
+Longaví,Retiro,37005.2127940503
+Longaví,Curicó,112574.204441834
+Longaví,Molina,96862.5708081826
+Longaví,Villa Alegre,51991.1170913185
+Longaví,Yerbas Buenas,47634.7839599452
+Longaví,Maule,71096.9273934368
+Longaví,San Rafael,89859.9475905134
+Longaví,Teno,140894.030475575
+Longaví,Romeral,133240.263010134
+Longaví,Parral,24891.8552522387
+Longaví,Colbún,41846.475166191
+Longaví,San Clemente,69427.3341953438
+Talca,Hualañé,53604.0214666832
+Talca,Rauco,56638.849184297
+Talca,Linares,63749.6861310852
+Talca,Longaví,77163.4854880159
+Talca,Chanco,85515.9365940999
+Talca,Curepto,45958.668719547
+Talca,Empedrado,65204.8127922023
+Talca,Pencahue,22408.2144734313
+Talca,Cauquenes,86075.3225253398
+Talca,Río Claro,35489.7416621795
+Talca,Pelarco,23442.6002314114
+Talca,San Javier,36977.6157482745
+Talca,Pelluhue,105669.931330209
+Talca,Constitución,61647.1711178174
+Talca,Licantén,65376.6079047491
+Talca,Vichuquén,75504.5355584245
+Talca,Sagrada Familia,37225.7456909292
+Talca,Retiro,66970.1912931645
+Talca,Curicó,69108.4303631392
+Talca,Molina,63461.6091123739
+Talca,Villa Alegre,29549.9616083148
+Talca,Yerbas Buenas,29531.1735351789
+Talca,Maule,13358.8466706527
+Talca,San Rafael,16688.9646628228
+Talca,Teno,79890.7562261926
+Talca,Romeral,90354.9419328641
+Talca,Parral,92653.8808897189
+Talca,Colbún,91602.81458445
+Talca,San Clemente,75308.2174165722
+Chanco,Hualañé,108806.254079137
+Chanco,Rauco,128046.808454068
+Chanco,Linares,108110.773657439
+Chanco,Longaví,104747.970997868
+Chanco,Talca,85515.9365940998
+Chanco,Curepto,79516.6001879295
+Chanco,Empedrado,20518.0505946763
+Chanco,Pencahue,73346.6573663818
+Chanco,Cauquenes,35441.8774776265
+Chanco,Río Claro,120573.478221535
+Chanco,Pelarco,108748.24354747
+Chanco,San Javier,51118.3598540063
+Chanco,Pelluhue,26055.6688641867
+Chanco,Constitución,41789.1637086171
+Chanco,Licantén,89204.3975779395
+Chanco,Vichuquén,104032.505076746
+Chanco,Sagrada Familia,111511.486668083
+Chanco,Retiro,68130.6119339943
+Chanco,Curicó,154623.005638006
+Chanco,Molina,147964.608071883
+Chanco,Villa Alegre,72578.4725595869
+Chanco,Yerbas Buenas,85183.8942568675
+Chanco,Maule,73251.3393948446
+Chanco,San Rafael,99553.8304006258
+Chanco,Teno,160658.247144764
+Chanco,Romeral,175696.993627424
+Chanco,Parral,98198.0571610602
+Chanco,Colbún,142426.014098371
+Chanco,San Clemente,148171.97254784
+Pelluhue,Hualañé,134086.20673764
+Pelluhue,Rauco,152221.440840534
+Pelluhue,Linares,115228.876554241
+Pelluhue,Longaví,107460.384332898
+Pelluhue,Talca,105669.931330209
+Pelluhue,Chanco,26055.6688641863
+Pelluhue,Curepto,105106.078572543
+Pelluhue,Empedrado,44141.4595410389
+Pelluhue,Pencahue,96629.2101343874
+Pelluhue,Cauquenes,30239.877318467
+Pelluhue,Río Claro,141157.824269855
+Pelluhue,Pelarco,128102.889919313
+Pelluhue,San Javier,69048.9277260801
+Pelluhue,Constitución,67835.527136788
+Pelluhue,Licantén,115258.594738839
+Pelluhue,Vichuquén,130084.414840633
+Pelluhue,Sagrada Familia,134912.297618559
+Pelluhue,Retiro,70916.8775454749
+Pelluhue,Curicó,174206.426416802
+Pelluhue,Molina,165814.10163411
+Pelluhue,Villa Alegre,87206.4888848685
+Pelluhue,Yerbas Buenas,99227.6896030116
+Pelluhue,Maule,92619.8320201713
+Pelluhue,San Rafael,120926.749159463
+Pelluhue,Teno,183425.145320517
+Pelluhue,Romeral,195849.043431027
+Pelluhue,Parral,94998.1332544432
+Pelluhue,Colbún,148081.999891897
+Pelluhue,San Clemente,160556.054173136
+Constitución,Hualañé,68903.8664706539
+Constitución,Rauco,90675.352062118
+Constitución,Linares,108029.609547941
+Constitución,Longaví,112186.372425537
+Constitución,Talca,61647.1711178174
+Constitución,Chanco,41789.1637086172
+Constitución,Curepto,39187.5820125642
+Constitución,Empedrado,27777.7067275961
+Constitución,Pencahue,41993.8817750902
+Constitución,Cauquenes,67485.3571522909
+Constitución,Río Claro,92246.424136593
+Constitución,Pelarco,84192.2091822154
+Constitución,San Javier,43275.3054463228
+Constitución,Pelluhue,67835.527136788
+Constitución,Licantén,47434.2066530764
+Constitución,Vichuquén,62341.5155997834
+Constitución,Sagrada Familia,76633.9120525253
+Constitución,Retiro,81621.0595461983
+Constitución,Curicó,126936.238902774
+Constitución,Molina,124201.865512342
+Constitución,Villa Alegre,64574.9660945474
+Constitución,Yerbas Buenas,75634.9027847139
+Constitución,Maule,53802.4588556193
+Constitución,San Rafael,70808.4615531795
+Constitución,Teno,125902.040107387
+Constitución,Romeral,146177.100162881
+Constitución,Parral,114881.801919966
+Constitución,Colbún,141716.780337923
+Constitución,San Clemente,135187.058006069
+Licantén,Hualañé,32198.7319794151
+Licantén,Rauco,58056.4508104106
+Licantén,Linares,127656.8204219
+Licantén,Longaví,138045.432648908
+Licantén,Talca,65376.6079047495
+Licantén,Chanco,89204.3975779394
+Licantén,Curepto,19849.469924752
+Licantén,Empedrado,73800.4266624572
+Licantén,Pencahue,45078.2037024315
+Licantén,Cauquenes,112443.762492162
+Licantén,Río Claro,78761.2091056484
+Licantén,Pelarco,79019.5829637377
+Licantén,San Javier,73665.0913356036
+Licantén,Pelluhue,115258.594738839
+Licantén,Constitución,47434.2066530763
+Licantén,Vichuquén,15127.2469654501
+Licantén,Sagrada Familia,53470.7834824636
+Licantén,Retiro,115975.366413342
+Licantén,Curicó,109136.385265316
+Licantén,Molina,112937.934781159
+Licantén,Villa Alegre,86062.0689893101
+Licantén,Yerbas Buenas,92226.2003128702
+Licantén,Maule,67311.3863624084
+Licantén,San Rafael,62652.1305408467
+Licantén,Teno,95365.7272402739
+Licantén,Romeral,123549.742317359
+Licantén,Parral,147767.557733345
+Licantén,Colbún,156957.619444575
+Licantén,San Clemente,137312.351422629
+Vichuquén,Hualañé,31227.7336769317
+Vichuquén,Rauco,55561.5076409272
+Vichuquén,Linares,138906.207898682
+Vichuquén,Longaví,150399.277604739
+Vichuquén,Talca,75504.5355584245
+Vichuquén,Chanco,104032.505076745
+Vichuquén,Curepto,32620.0320357728
+Vichuquén,Empedrado,88913.1608018135
+Vichuquén,Pencahue,57125.4619340516
+Vichuquén,Cauquenes,127552.521877281
+Vichuquén,Río Claro,82937.132976154
+Vichuquén,Pelarco,85848.044069758
+Vichuquén,San Javier,87821.2992296124
+Vichuquén,Pelluhue,130084.414840634
+Vichuquén,Constitución,62341.515599783
+Vichuquén,Licantén,15127.2469654505
+Vichuquén,Sagrada Familia,56218.2524629054
+Vichuquén,Retiro,129984.356478378
+Vichuquén,Curicó,110273.767324733
+Vichuquén,Molina,116261.862852936
+Vichuquén,Villa Alegre,98626.7709848536
+Vichuquén,Yerbas Buenas,103700.551806013
+Vichuquén,Maule,79308.918000668
+Vichuquén,San Rafael,69852.6460488084
+Vichuquén,Teno,91656.0859116894
+Vichuquén,Romeral,122373.895311972
+Vichuquén,Parral,161301.176275911
+Vichuquén,Colbún,166777.347136945
+Vichuquén,San Clemente,144076.361901771
+Cauquenes,Hualañé,124387.164665911
+Cauquenes,Rauco,138416.623418439
+Cauquenes,Linares,85590.1442856388
+Cauquenes,Longaví,77222.7251077364
+Cauquenes,Talca,86075.32252534
+Cauquenes,Chanco,35441.8774776265
+Cauquenes,Curepto,97994.7464592209
+Cauquenes,Empedrado,39717.3100204963
+Cauquenes,Pencahue,82901.8433476909
+Cauquenes,Río Claro,120899.722933639
+Cauquenes,Pelarco,106592.512335163
+Cauquenes,San Javier,49641.0722447606
+Cauquenes,Pelluhue,30239.8773184671
+Cauquenes,Constitución,67485.3571522905
+Cauquenes,Licantén,112443.762492162
+Cauquenes,Vichuquén,127552.521877281
+Cauquenes,Sagrada Familia,119714.784005781
+Cauquenes,Retiro,40833.0538374462
+Cauquenes,Curicó,152010.586363908
+Cauquenes,Molina,141845.2244515
+Cauquenes,Villa Alegre,62583.1247342493
+Cauquenes,Yerbas Buenas,73527.9468672532
+Cauquenes,Maule,72729.5366781206
+Cauquenes,San Rafael,102467.95144121
+Cauquenes,Teno,165879.623167066
+Cauquenes,Romeral,174077.436284324
+Cauquenes,Parral,65666.4429227045
+Cauquenes,Colbún,117995.698959959
+Cauquenes,San Clemente,132587.309976238
+Río Claro,Hualañé,52608.8453319257
+Río Claro,Rauco,38481.9534068866
+Río Claro,Linares,77665.275960316
+Río Claro,Longaví,95633.0841017414
+Río Claro,Talca,35489.7416621797
+Río Claro,Chanco,120573.478221535
+Río Claro,Curepto,63901.7988449734
+Río Claro,Empedrado,100115.285345545
+Río Claro,Pencahue,50280.6501325044
+Río Claro,Cauquenes,120899.722933639
+Río Claro,Pelarco,15450.9736161123
+Río Claro,San Javier,72376.1328257379
+Río Claro,Pelluhue,141157.824269855
+Río Claro,Constitución,92246.424136593
+Río Claro,Licantén,78761.2091056483
+Río Claro,Vichuquén,82937.132976154
+Río Claro,Sagrada Familia,26949.9507587436
+Río Claro,Retiro,96688.6156138902
+Río Claro,Curicó,34743.5828299649
+Río Claro,Molina,34308.1934822903
+Río Claro,Villa Alegre,60326.8188140854
+Río Claro,Yerbas Buenas,53767.1379398206
+Río Claro,Maule,48674.2397945639
+Río Claro,San Rafael,21552.3580002929
+Río Claro,Teno,47077.1090989413
+Río Claro,Romeral,55137.9611435879
+Río Claro,Parral,116237.385226403
+Río Claro,Colbún,94499.2165681055
+Río Claro,San Clemente,63089.3042510753
+Pelarco,Hualañé,57858.3161526259
+Pelarco,Rauco,49834.5284528632
+Pelarco,Linares,63867.2184567451
+Pelarco,Longaví,81171.0684478612
+Pelarco,Talca,23442.6002314113
+Pelarco,Chanco,108748.24354747
+Pelarco,Curepto,61650.4874449253
+Pelarco,Empedrado,88538.6625569195
+Pelarco,Pencahue,42824.1475859823
+Pelarco,Cauquenes,106592.512335163
+Pelarco,Río Claro,15450.9736161126
+Pelarco,San Javier,59054.1262941889
+Pelarco,Pelluhue,128102.889919313
+Pelarco,Constitución,84192.2091822154
+Pelarco,Licantén,79019.5829637379
+Pelarco,Vichuquén,85848.044069758
+Pelarco,Sagrada Familia,33701.1208762584
+Pelarco,Retiro,81267.4828959205
+Pelarco,Curicó,46115.0728230824
+Pelarco,Molina,40152.0592703542
+Pelarco,Villa Alegre,45202.0836370025
+Pelarco,Yerbas Buenas,38317.6975003574
+Pelarco,Maule,35629.6214872695
+Pelarco,San Rafael,16377.2167529707
+Pelarco,Teno,62527.5301284254
+Pelarco,Romeral,67815.3368175594
+Pelarco,Parral,101132.391018372
+Pelarco,Colbún,84143.3618435979
+Pelarco,San Clemente,58377.9923735218
+San Javier,Hualañé,77632.5237466028
+San Javier,Rauco,89176.4564498375
+San Javier,Linares,65040.7306997639
+San Javier,Longaví,69162.7276272598
+San Javier,Talca,36977.6157482743
+San Javier,Chanco,51118.3598540063
+San Javier,Curepto,55444.4686197746
+San Javier,Empedrado,32392.8762302954
+San Javier,Pencahue,34933.8718042133
+San Javier,Cauquenes,49641.0722447604
+San Javier,Río Claro,72376.1328257377
+San Javier,Pelarco,59054.126294189
+San Javier,Pelluhue,69048.9277260802
+San Javier,Constitución,43275.305446323
+San Javier,Licantén,73665.0913356035
+San Javier,Vichuquén,87821.2992296121
+San Javier,Sagrada Familia,70228.9711165247
+San Javier,Retiro,42335.9962393802
+San Javier,Curicó,105159.181653457
+San Javier,Molina,97276.7689008475
+San Javier,Villa Alegre,22941.2899439078
+San Javier,Yerbas Buenas,35330.878247247
+San Javier,Maule,23701.9147765632
+San Javier,San Rafael,53019.4746184484
+San Javier,Teno,116390.630500435
+San Javier,Romeral,126823.21814895
+San Javier,Parral,74703.1174348105
+San Javier,Colbún,99148.5171402464
+San Javier,San Clemente,98142.6617261936
+Villa Alegre,Hualañé,81365.7305008563
+Villa Alegre,Rauco,86176.2092788246
+Villa Alegre,Linares,43870.6664655136
+Villa Alegre,Longaví,51991.1170913186
+Villa Alegre,Talca,29549.9616083147
+Villa Alegre,Chanco,72578.4725595869
+Villa Alegre,Curepto,66361.7181166439
+Villa Alegre,Empedrado,54987.7446635335
+Villa Alegre,Pencahue,41523.6059345824
+Villa Alegre,Cauquenes,62583.1247342491
+Villa Alegre,Río Claro,60326.8188140851
+Villa Alegre,Pelarco,45202.0836370027
+Villa Alegre,San Javier,22941.2899439078
+Villa Alegre,Pelluhue,87206.4888848683
+Villa Alegre,Constitución,64574.9660945475
+Villa Alegre,Licantén,86062.06898931
+Villa Alegre,Vichuquén,98626.7709848536
+Villa Alegre,Sagrada Familia,66774.6181056427
+Villa Alegre,Retiro,37512.7699514018
+Villa Alegre,Curicó,89642.3906244038
+Villa Alegre,Molina,79312.8163357431
+Villa Alegre,Yerbas Buenas,12624.7735177256
+Villa Alegre,Maule,19777.9158133409
+Villa Alegre,San Rafael,45649.27727061
+Villa Alegre,Teno,107030.784886584
+Villa Alegre,Romeral,111785.60227016
+Villa Alegre,Parral,64049.1048398909
+Villa Alegre,Colbún,77148.1208690552
+Villa Alegre,San Clemente,75678.047151531
+Yerbas Buenas,Hualañé,83135.066029537
+Yerbas Buenas,Rauco,84068.3899081485
+Yerbas Buenas,Linares,35445.3375033503
+Yerbas Buenas,Longaví,47634.7839599449
+Yerbas Buenas,Talca,29531.1735351789
+Yerbas Buenas,Chanco,85183.8942568675
+Yerbas Buenas,Curepto,72380.0171338306
+Yerbas Buenas,Empedrado,67553.3417739415
+Yerbas Buenas,Pencahue,47160.0818292673
+Yerbas Buenas,Cauquenes,73527.9468672534
+Yerbas Buenas,Río Claro,53767.1379398203
+Yerbas Buenas,Pelarco,38317.6975003574
+Yerbas Buenas,San Javier,35330.8782472471
+Yerbas Buenas,Pelluhue,99227.6896030115
+Yerbas Buenas,Constitución,75634.9027847137
+Yerbas Buenas,Licantén,92226.2003128704
+Yerbas Buenas,Vichuquén,103700.551806013
+Yerbas Buenas,Sagrada Familia,65153.7401830814
+Yerbas Buenas,Retiro,43207.6747382894
+Yerbas Buenas,Curicó,80202.2285387351
+Yerbas Buenas,Molina,68616.537342615
+Yerbas Buenas,Villa Alegre,12624.7735177256
+Yerbas Buenas,Maule,25124.0194270857
+Yerbas Buenas,San Rafael,43157.4222397975
+Yerbas Buenas,Teno,100838.370191851
+Yerbas Buenas,Romeral,102369.669531777
+Yerbas Buenas,Parral,64166.3352529895
+Yerbas Buenas,Colbún,66846.999743267
+Yerbas Buenas,San Clemente,63053.7070881171
+Maule,Hualañé,61713.3198454338
+Maule,Rauco,68420.9850482672
+Maule,Linares,60526.5491872773
+Maule,Longaví,71096.927393437
+Maule,Talca,13358.8466706527
+Maule,Chanco,73251.3393948446
+Maule,Curepto,47470.6749802313
+Maule,Empedrado,53248.597858458
+Maule,Pencahue,22274.1375740751
+Maule,Cauquenes,72729.5366781204
+Maule,Río Claro,48674.2397945639
+Maule,Pelarco,35629.6214872694
+Maule,San Javier,23701.9147765634
+Maule,Pelluhue,92619.8320201713
+Maule,Constitución,53802.4588556192
+Maule,Licantén,67311.3863624082
+Maule,Vichuquén,79308.9180006683
+Maule,Sagrada Familia,49015.1458158245
+Maule,Retiro,55778.0199687613
+Maule,Curicó,81718.5246124452
+Maule,Molina,74794.7423308242
+Maule,Villa Alegre,19777.915813341
+Maule,Yerbas Buenas,25124.0194270858
+Maule,San Rafael,29822.1920272285
+Maule,Teno,93186.2480056992
+Maule,Romeral,103238.538498196
+Maule,Parral,83786.9122089834
+Maule,Colbún,91527.4441966415
+Maule,San Clemente,81389.1335425883
+San Rafael,Hualañé,43175.9188845913
+San Rafael,Rauco,40972.4860742405
+San Rafael,Linares,74382.7626913039
+San Rafael,Longaví,89859.9475905133
+San Rafael,Talca,16688.9646628229
+San Rafael,Chanco,99553.8304006258
+San Rafael,Curepto,45400.6859643362
+San Rafael,Empedrado,79044.6057933761
+San Rafael,Pencahue,28814.5893679793
+San Rafael,Cauquenes,102467.951441211
+San Rafael,Río Claro,21552.358000293
+San Rafael,Pelarco,16377.2167529705
+San Rafael,San Javier,53019.4746184485
+San Rafael,Pelluhue,120926.749159463
+San Rafael,Constitución,70808.4615531795
+San Rafael,Licantén,62652.1305408467
+San Rafael,Vichuquén,69852.6460488086
+San Rafael,Sagrada Familia,22032.2916541346
+San Rafael,Retiro,83160.0402246601
+San Rafael,Curicó,56291.7892613774
+San Rafael,Molina,54045.4145240446
+San Rafael,Villa Alegre,45649.2772706103
+San Rafael,Yerbas Buenas,43157.422239798
+San Rafael,Maule,29822.1920272287
+San Rafael,Teno,63412.3455999704
+San Rafael,Romeral,76454.7057818169
+San Rafael,Parral,107290.184648872
+San Rafael,Colbún,98219.3632765638
+San Rafael,San Clemente,74688.7036865927
+Sagrada Familia,Hualañé,25659.5723154263
+Sagrada Familia,Rauco,19445.7417606006
+Sagrada Familia,Linares,95978.3666972748
+Sagrada Familia,Longaví,111834.925435938
+Sagrada Familia,Talca,37225.7456909289
+Sagrada Familia,Chanco,111511.486668083
+Sagrada Familia,Curepto,41769.1268421825
+Sagrada Familia,Empedrado,91274.3288895034
+Sagrada Familia,Pencahue,38300.1914585012
+Sagrada Familia,Cauquenes,119714.784005781
+Sagrada Familia,Río Claro,26949.9507587433
+Sagrada Familia,Pelarco,33701.1208762586
+Sagrada Familia,San Javier,70228.9711165249
+Sagrada Familia,Pelluhue,134912.297618559
+Sagrada Familia,Constitución,76633.9120525252
+Sagrada Familia,Licantén,53470.7834824636
+Sagrada Familia,Vichuquén,56218.2524629053
+Sagrada Familia,Retiro,104168.713454236
+Sagrada Familia,Curicó,55743.523530292
+Sagrada Familia,Molina,60097.593404265
+Sagrada Familia,Villa Alegre,66774.6181056425
+Sagrada Familia,Yerbas Buenas,65153.7401830817
+Sagrada Familia,Maule,49015.1458158245
+Sagrada Familia,San Rafael,22032.2916541343
+Sagrada Familia,Teno,49462.784026921
+Sagrada Familia,Romeral,71650.3875900378
+Sagrada Familia,Parral,129229.770609896
+Sagrada Familia,Colbún,117844.336075061
+Sagrada Familia,San Clemente,89572.3284838196
+Retiro,Hualañé,116966.530892098
+Retiro,Rauco,123600.798063244
+Retiro,Linares,45131.1016203163
+Retiro,Longaví,37005.2127940503
+Retiro,Talca,66970.1912931641
+Retiro,Chanco,68130.6119339942
+Retiro,Curepto,97445.7514336255
+Retiro,Empedrado,59579.5041058762
+Retiro,Pencahue,74867.2656166897
+Retiro,Cauquenes,40833.0538374462
+Retiro,Río Claro,96688.6156138904
+Retiro,Pelarco,81267.4828959203
+Retiro,San Javier,42335.9962393799
+Retiro,Pelluhue,70916.8775454749
+Retiro,Constitución,81621.0595461985
+Retiro,Licantén,115975.366413342
+Retiro,Vichuquén,129984.356478378
+Retiro,Sagrada Familia,104168.713454235
+Retiro,Curicó,122901.235581627
+Retiro,Molina,110109.108958354
+Retiro,Villa Alegre,37512.7699514021
+Retiro,Yerbas Buenas,43207.6747382895
+Retiro,Maule,55778.0199687611
+Retiro,San Rafael,83160.0402246602
+Retiro,Teno,143730.405474719
+Retiro,Romeral,144981.336426595
+Retiro,Parral,33260.7424316633
+Retiro,Colbún,77176.499490471
+Retiro,San Clemente,94306.553087073
+Curicó,Hualañé,79071.3241957293
+Curicó,Rauco,56423.0504448766
+Curicó,Linares,93073.6384206915
+Curicó,Longaví,112574.204441834
+Curicó,Talca,69108.4303631393
+Curicó,Chanco,154623.005638006
+Curicó,Curepto,96673.3351652983
+Curicó,Empedrado,134275.604502614
+Curicó,Pencahue,85005.4834660219
+Curicó,Cauquenes,152010.586363908
+Curicó,Río Claro,34743.582829965
+Curicó,Pelarco,46115.0728230824
+Curicó,San Javier,105159.181653457
+Curicó,Pelluhue,174206.426416802
+Curicó,Constitución,126936.238902774
+Curicó,Licantén,109136.385265316
+Curicó,Vichuquén,110273.767324733
+Curicó,Sagrada Familia,55743.523530292
+Curicó,Retiro,122901.235581627
+Curicó,Molina,17104.1214387396
+Curicó,Villa Alegre,89642.390624404
+Curicó,Yerbas Buenas,80202.2285387351
+Curicó,Maule,81718.5246124453
+Curicó,San Rafael,56291.7892613774
+Curicó,Teno,36395.5641638855
+Curicó,Romeral,22178.5862328413
+Curicó,Parral,136066.092750101
+Curicó,Colbún,97808.6400806234
+Curicó,San Clemente,57103.9297159505
+Molina,Hualañé,85280.4366881315
+Molina,Rauco,65820.2376193961
+Molina,Linares,77304.0533400964
+Molina,Longaví,96862.5708081825
+Molina,Talca,63461.6091123739
+Molina,Chanco,147964.608071883
+Molina,Curepto,98137.008369152
+Molina,Empedrado,128042.615426092
+Molina,Pencahue,82462.7221510146
+Molina,Cauquenes,141845.224451499
+Molina,Río Claro,34308.1934822903
+Molina,Pelarco,40152.0592703541
+Molina,San Javier,97276.7689008475
+Molina,Pelluhue,165814.10163411
+Molina,Constitución,124201.865512342
+Molina,Licantén,112937.934781159
+Molina,Vichuquén,116261.862852936
+Molina,Sagrada Familia,60097.5934042651
+Molina,Retiro,110109.108958354
+Molina,Curicó,17104.1214387394
+Molina,Villa Alegre,79312.8163357433
+Molina,Yerbas Buenas,68616.5373426149
+Molina,Maule,74794.7423308242
+Molina,San Rafael,54045.4145240446
+Molina,Teno,52573.3084989501
+Molina,Romeral,36377.8683319778
+Molina,Parral,120824.632902087
+Molina,Colbún,80704.5191029702
+Molina,San Clemente,40279.161513547
+Colbún,Hualañé,141365.37790832
+Colbún,Rauco,132846.082910971
+Colbún,Linares,34545.6797778785
+Colbún,Longaví,41846.4751661911
+Colbún,Talca,91602.8145844499
+Colbún,Chanco,142426.01409837
+Colbún,Curepto,137379.984171593
+Colbún,Empedrado,128754.905328284
+Colbún,Pencahue,112638.375523917
+Colbún,Cauquenes,117995.698959959
+Colbún,Río Claro,94499.2165681059
+Colbún,Pelarco,84143.3618435979
+Colbún,San Javier,99148.5171402465
+Colbún,Pelluhue,148081.999891897
+Colbún,Constitución,141716.780337923
+Colbún,Licantén,156957.619444575
+Colbún,Vichuquén,166777.347136945
+Colbún,Sagrada Familia,117844.336075061
+Colbún,Retiro,77176.499490471
+Colbún,Curicó,97808.6400806232
+Colbún,Molina,80704.5191029703
+Colbún,Villa Alegre,77148.1208690555
+Colbún,Yerbas Buenas,66846.9997432672
+Colbún,Maule,91527.4441966413
+Colbún,San Rafael,98219.3632765641
+Colbún,Teno,132096.279284026
+Colbún,Romeral,114627.521102163
+Colbún,Parral,63402.6680262288
+Colbún,San Clemente,42246.3653267304
+San Clemente,Hualañé,115019.667996387
+San Clemente,Rauco,100710.758637221
+San Clemente,Linares,51548.6981721196
+San Clemente,Longaví,69427.334195344
+San Clemente,Talca,75308.2174165721
+San Clemente,Chanco,148171.97254784
+San Clemente,Curepto,119374.023203697
+San Clemente,Empedrado,130507.133014237
+San Clemente,Pencahue,97658.5221611776
+San Clemente,Cauquenes,132587.309976238
+San Clemente,Río Claro,63089.3042510752
+San Clemente,Pelarco,58377.9923735219
+San Clemente,San Javier,98142.6617261936
+San Clemente,Pelluhue,160556.054173136
+San Clemente,Constitución,135187.058006069
+San Clemente,Licantén,137312.351422629
+San Clemente,Vichuquén,144076.361901771
+San Clemente,Sagrada Familia,89572.3284838194
+San Clemente,Retiro,94306.5530870731
+San Clemente,Curicó,57103.9297159503
+San Clemente,Molina,40279.1615135468
+San Clemente,Villa Alegre,75678.047151531
+San Clemente,Yerbas Buenas,63053.7070881171
+San Clemente,Maule,81389.1335425884
+San Clemente,San Rafael,74688.7036865926
+San Clemente,Teno,92815.3402415751
+San Clemente,Romeral,72538.9742220276
+San Clemente,Parral,94291.9374149957
+San Clemente,Colbún,42246.3653267305
+Hualañé,Rauco,25859.3707314597
+Hualañé,Linares,116713.4789582
+Hualañé,Longaví,130766.841695358
+Hualañé,Talca,53604.021466683
+Hualañé,Chanco,108806.254079137
+Hualañé,Curepto,29716.3278621183
+Hualañé,Empedrado,90091.5620842109
+Hualañé,Pencahue,42733.0276991199
+Hualañé,Cauquenes,124387.164665911
+Hualañé,Río Claro,52608.8453319258
+Hualañé,Pelarco,57858.3161526258
+Hualañé,San Javier,77632.5237466027
+Hualañé,Pelluhue,134086.206737639
+Hualañé,Constitución,68903.8664706539
+Hualañé,Licantén,32198.7319794151
+Hualañé,Vichuquén,31227.7336769317
+Hualañé,Sagrada Familia,25659.5723154266
+Hualañé,Retiro,116966.530892098
+Hualañé,Curicó,79071.3241957292
+Hualañé,Molina,85280.4366881315
+Hualañé,Villa Alegre,81365.7305008561
+Hualañé,Yerbas Buenas,83135.0660295372
+Hualañé,Maule,61713.319845434
+Hualañé,San Rafael,43175.9188845912
+Hualañé,Teno,63179.5800198556
+Hualañé,Romeral,91931.3834374606
+Hualañé,Parral,145403.421884961
+Hualañé,Colbún,141365.37790832
+Hualañé,San Clemente,115019.667996387
+Rauco,Hualañé,25859.3707314597
+Rauco,Linares,113517.582834408
+Rauco,Longaví,130106.877392997
+Rauco,Talca,56638.849184297
+Rauco,Chanco,128046.808454068
+Rauco,Curepto,52563.8135766431
+Rauco,Empedrado,108200.482325137
+Rauco,Pencahue,55946.3490978856
+Rauco,Cauquenes,138416.623418439
+Rauco,Río Claro,38481.9534068867
+Rauco,Pelarco,49834.5284528634
+Rauco,San Javier,89176.4564498372
+Rauco,Pelluhue,152221.440840534
+Rauco,Constitución,90675.3520621179
+Rauco,Licantén,58056.4508104106
+Rauco,Vichuquén,55561.5076409272
+Rauco,Sagrada Familia,19445.7417606007
+Rauco,Retiro,123600.798063244
+Rauco,Curicó,56423.0504448764
+Rauco,Molina,65820.2376193962
+Rauco,Villa Alegre,86176.2092788248
+Rauco,Yerbas Buenas,84068.3899081481
+Rauco,Maule,68420.9850482672
+Rauco,San Rafael,40972.4860742408
+Rauco,Teno,37373.8575622286
+Rauco,Romeral,66825.7511816281
+Rauco,Parral,148231.285235227
+Rauco,Colbún,132846.082910971
+Rauco,San Clemente,100710.758637221
+Teno,Hualañé,63179.5800198556
+Teno,Rauco,37373.8575622286
+Teno,Linares,122050.381592994
+Teno,Longaví,140894.030475575
+Teno,Talca,79890.7562261925
+Teno,Chanco,160658.247144764
+Teno,Curepto,89133.0257032957
+Teno,Empedrado,140277.215290947
+Teno,Pencahue,87314.1302907718
+Teno,Cauquenes,165879.623167066
+Teno,Río Claro,47077.1090989411
+Teno,Pelarco,62527.5301284255
+Teno,San Javier,116390.630500434
+Teno,Pelluhue,183425.145320517
+Teno,Constitución,125902.040107387
+Teno,Licantén,95365.7272402739
+Teno,Vichuquén,91656.0859116894
+Teno,Sagrada Familia,49462.7840269211
+Teno,Retiro,143730.405474719
+Teno,Curicó,36395.5641638853
+Teno,Molina,52573.3084989503
+Teno,Villa Alegre,107030.784886584
+Teno,Yerbas Buenas,100838.37019185
+Teno,Maule,93186.248005699
+Teno,San Rafael,63412.3455999705
+Teno,Romeral,34680.9676972726
+Teno,Parral,162595.545100131
+Teno,Colbún,132096.279284026
+Teno,San Clemente,92815.3402415752
+Romeral,Hualañé,91931.3834374606
+Romeral,Rauco,66825.751181628
+Romeral,Linares,113681.608238887
+Romeral,Longaví,133240.263010134
+Romeral,Talca,90354.941932864
+Romeral,Chanco,175696.993627424
+Romeral,Curepto,113414.140454306
+Romeral,Empedrado,155250.0648006
+Romeral,Pencahue,104648.321322025
+Romeral,Cauquenes,174077.436284323
+Romeral,Río Claro,55137.961143588
+Romeral,Pelarco,67815.3368175591
+Romeral,San Javier,126823.21814895
+Romeral,Pelluhue,195849.043431027
+Romeral,Constitución,146177.100162881
+Romeral,Licantén,123549.742317359
+Romeral,Vichuquén,122373.895311972
+Romeral,Sagrada Familia,71650.3875900378
+Romeral,Retiro,144981.336426595
+Romeral,Curicó,22178.5862328413
+Romeral,Molina,36377.8683319775
+Romeral,Villa Alegre,111785.60227016
+Romeral,Yerbas Buenas,102369.669531777
+Romeral,Maule,103238.538498196
+Romeral,San Rafael,76454.7057818171
+Romeral,Teno,34680.9676972725
+Romeral,Parral,157154.395790606
+Romeral,Colbún,114627.521102163
+Romeral,San Clemente,72538.9742220273
+Parral,Hualañé,145403.421884961
+Parral,Rauco,148231.285235227
+Parral,Linares,43953.6307927865
+Parral,Longaví,24891.8552522385
+Parral,Talca,92653.880889719
+Parral,Chanco,98198.0571610604
+Parral,Curepto,128686.527945521
+Parral,Empedrado,92211.2764497694
+Parral,Pencahue,104839.90432519
+Parral,Cauquenes,65666.4429227044
+Parral,Río Claro,116237.385226403
+Parral,Pelarco,101132.391018372
+Parral,San Javier,74703.1174348104
+Parral,Pelluhue,94998.1332544433
+Parral,Constitución,114881.801919965
+Parral,Licantén,147767.557733345
+Parral,Vichuquén,161301.176275911
+Parral,Sagrada Familia,129229.770609896
+Parral,Retiro,33260.7424316632
+Parral,Curicó,136066.092750102
+Parral,Molina,120824.632902088
+Parral,Villa Alegre,64049.1048398909
+Parral,Yerbas Buenas,64166.3352529894
+Parral,Maule,83786.9122089836
+Parral,San Rafael,107290.184648872
+Parral,Teno,162595.545100131
+Parral,Romeral,157154.395790606
+Parral,Colbún,63402.6680262286
+Parral,San Clemente,94291.9374149955
